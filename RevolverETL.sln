@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{DD161516-6052-4263-B8A4-8A8CCA9018B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETLUnitTest", "ETLUnitTest\ETLUnitTest.csproj", "{754C4850-F50E-4F7E-BD1C-7CF6FABA3EAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETL.Core.Revolver", "ETL.Core.Revolver\ETL.Core.Revolver.csproj", "{2BC3D38B-C130-4477-A0C9-30E7C1B48CFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD161516-6052-4263-B8A4-8A8CCA9018B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD161516-6052-4263-B8A4-8A8CCA9018B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD161516-6052-4263-B8A4-8A8CCA9018B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD161516-6052-4263-B8A4-8A8CCA9018B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754C4850-F50E-4F7E-BD1C-7CF6FABA3EAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754C4850-F50E-4F7E-BD1C-7CF6FABA3EAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754C4850-F50E-4F7E-BD1C-7CF6FABA3EAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754C4850-F50E-4F7E-BD1C-7CF6FABA3EAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BC3D38B-C130-4477-A0C9-30E7C1B48CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BC3D38B-C130-4477-A0C9-30E7C1B48CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BC3D38B-C130-4477-A0C9-30E7C1B48CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BC3D38B-C130-4477-A0C9-30E7C1B48CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

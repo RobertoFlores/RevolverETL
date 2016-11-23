@@ -1,5 +1,6 @@
 # RevolverETL
-Tiny ETL System
+Tiny ETL System 
+Extract, Transform & Load
 
 Main Goals
 - Extract information from MySQL, SQL Server, SQLite DBMS, CSV file, Excel File, XML File, Web Service, FTP.

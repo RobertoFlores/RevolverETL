@@ -25,6 +25,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -66,6 +67,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="DataModel\DbConnectTest.cs" />
+    <Compile Include="MetaDataReader\MetaDataReaderTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -77,10 +79,15 @@
       <Project>{2bc3d38b-c130-4477-a0c9-30e7c1b48cff}</Project>
       <Name>ETL.Core.Revolver</Name>
     </ProjectReference>
+    <ProjectReference Include="..\NMG.Core\NMG.Core.csproj">
+      <Project>{a15f2280-c07b-4bba-b822-6d06c464a582}</Project>
+      <Name>NMG.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

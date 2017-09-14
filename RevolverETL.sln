@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETLUnitTest", "ETLUnitTest\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ETL.Core.Revolver", "ETL.Core.Revolver\ETL.Core.Revolver.csproj", "{2BC3D38B-C130-4477-A0C9-30E7C1B48CFF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NMG.Core", "NMG.Core\NMG.Core.csproj", "{A15F2280-C07B-4BBA-B822-6D06C464A582}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2BC3D38B-C130-4477-A0C9-30E7C1B48CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2BC3D38B-C130-4477-A0C9-30E7C1B48CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2BC3D38B-C130-4477-A0C9-30E7C1B48CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15F2280-C07B-4BBA-B822-6D06C464A582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15F2280-C07B-4BBA-B822-6D06C464A582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15F2280-C07B-4BBA-B822-6D06C464A582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15F2280-C07B-4BBA-B822-6D06C464A582}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

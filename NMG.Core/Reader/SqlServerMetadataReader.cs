@@ -18,9 +18,14 @@ namespace NMG.Core.Reader
 			this.connectionStr = connectionStr;
 		}
 
-		#region IMetadataReader Members
+        #region queries
 
-		public IList<Column> GetTableDetails(Table table, string owner)
+
+        #endregion
+
+        #region IMetadataReader Members
+
+        public IList<Column> GetTableDetails(Table table, string owner)
 		{
 			var columns = new List<Column>();
 			var conn = new SqlConnection(connectionStr);
@@ -332,5 +337,8 @@ WHERE KCU1.CONSTRAINT_NAME = '{0}'",
 			}
 			return hasManyRelationships;
 		}
+
+
+
 	}
 }

@@ -1,17 +1,17 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using NMG.Core;
 using NMG.Core.Domain;
 using NMG.Core.Reader;
 
-
-namespace ETLUnitTest.MetaDataReader
+namespace ETL.Console.Revolver
 {
-    [TestClass]
-    public class MetaDataReaderTest
+    class Program
     {
-        [TestMethod]
-        public void GetTables()
+        static void Main(string[] args)
         {
             IMetadataReader metadataReader;
 
@@ -23,12 +23,18 @@ namespace ETLUnitTest.MetaDataReader
             metadataReader = MetadataFactory.GetReader(currentconnection.Type, currentconnection.ConnectionString);
 
             var owners = metadataReader.GetOwners();
-            //var owner = owners.Contains("db_owner");
             var tables = metadataReader.GetTables(owners[2]);
 
             var tableuser = metadataReader.GetTableDetails(tables[1], owners[2]);
 
-            Assert.AreEqual(13, owners.Count);
+            foreach(var col in tableuser)
+            {
+                System.Console.WriteLine("Col Name:    {0}",col.Name);
+                //Console.
+            }
+
+            System.Console.ReadKey();
+
         }
     }
 }

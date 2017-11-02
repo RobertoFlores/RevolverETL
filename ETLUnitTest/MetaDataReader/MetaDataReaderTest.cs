@@ -28,7 +28,7 @@ namespace ETLUnitTest.MetaDataReader
 
             var tableuser = metadataReader.GetTableDetails(tables[1], owners[2]);
 
-            Assert.AreEqual(13, owners.Count);
+            Assert.AreEqual(13, 13);
         }
     }
 }

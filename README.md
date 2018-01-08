@@ -15,9 +15,4 @@ Features
 - Windows Service Daemon
 - UI to set up the Runner
 
-| Item	| Grok variable	| Log example data |
-| :---: | ------------- | ---------------- |
-|	1	| %{NUMBER:linenumber:int} | 9468 |
-|	2	| %{TIME:time} | 17:28:45 |
-|	3	| %{WORD:loglevel} | INFO   |
 
